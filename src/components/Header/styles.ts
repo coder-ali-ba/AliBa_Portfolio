@@ -1,7 +1,8 @@
+import { HTMLAttributes } from "react";
 import styled from "styled-components";
 
 
-export const Container = styled.header`
+export const Container = styled.section<HTMLAttributes<HTMLElement>>`
   display: flex;
   justify-content: space-between;
   align-items: center;

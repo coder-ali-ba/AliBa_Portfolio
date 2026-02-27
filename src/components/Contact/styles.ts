@@ -1,7 +1,8 @@
+import { HTMLAttributes } from "react";
 import styled from "styled-components";
 
 
-export const Container = styled.section`
+export const Container = styled.section<HTMLAttributes<HTMLElement>>`
   margin-top: 10rem;
 
   header{

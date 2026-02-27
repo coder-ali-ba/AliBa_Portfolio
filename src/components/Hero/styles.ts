@@ -1,6 +1,7 @@
+import { HTMLAttributes } from "react";
 import styled from "styled-components";
 
-export const Container = styled.section`
+export const Container = styled.section<HTMLAttributes<HTMLElement>>`
   padding-top: 15%;
   display: flex;
   justify-content: space-between;

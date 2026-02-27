@@ -31,7 +31,7 @@ export const GlobalStyle = createGlobalStyle`
           background-color: var(--black); 
         }
         .menu.active{
-          background-color: rgba(555,555,555,0);
+          background-color: rgba(255,255,255,0);
         }
       }
 

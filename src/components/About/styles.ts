@@ -1,6 +1,7 @@
+import { HTMLAttributes } from "react";
 import styled from "styled-components";
 
-export const Container = styled.section`
+export const Container = styled.section<HTMLAttributes<HTMLElement>>`
   margin-top: 12rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
